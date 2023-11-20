@@ -10,12 +10,12 @@ public class Furgoneta {
         return kilometraje;
     }
     
-    public void setMatricula(String nuevaMatricula){
-        matricula = nuevaMatricula;
+    public void setMatricula(String matricula){
+        this.matricula = matricula;
     }
     
-    public void setKilometraje(int nuevoKilometraje){
-        kilometraje = nuevoKilometraje;
+    public void setKilometraje(int kilometraje){
+        this.kilometraje = kilometraje;
     }
 
     public String getDetalles() {
